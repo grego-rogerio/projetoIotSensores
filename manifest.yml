@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: projetoIotSensores
+  host: projetoIotSensores
+  disk_quota: 1024M
+  services:
+  - projetoIotSensores-AdvancedMobileAccess
+  - projetoIotSensores-imfpush
+  - projetoIotSensores-cloudantNoSQLDB
